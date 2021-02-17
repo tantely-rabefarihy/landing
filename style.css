@@ -51,7 +51,7 @@ a:hover {
 .container {
   width: 800px;
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 
 .container h2 {
@@ -83,17 +83,17 @@ a:hover {
   margin-bottom: 0;
 }
 .card-white p {
-  color: black;
+  color: white;
 }
 
 .card-white {
   display: flex;
   flex-direction: column;
   cursor: pointer;
-  height: 250px;
+  height: 300px;
   color: white;
-  background-color: grey;
-  width: 200px;
+  background-color: #404042;
+  width: 220px;
   text-align: center;
   border-radius: 8px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -114,7 +114,6 @@ a:hover {
 
 .card-white:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-
   -webkit-transform: scale(1.1, 1.1);
   transform: scale(1.1, 1.1);
 }
